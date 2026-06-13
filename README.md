@@ -1,7 +1,5 @@
 # 🚀 Scalable API Testing Framework – Rest Assured (Java)
 
-### ✍️ Author: Pramod Dutta
-
 A robust **Scalable API Testing Framework** built using **Rest Assured** for testing the CRUD operations of the **Restful Booker API**. This framework follows a **hybrid design pattern**, integrates CI/CD pipelines, and generates rich **Allure Reports**.
 
 ---
