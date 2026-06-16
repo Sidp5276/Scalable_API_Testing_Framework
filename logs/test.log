@@ -1,0 +1,594 @@
+2026-06-16 20:45:25 INFO  TestListener - === Test Suite Started: E2E Integration Tests ===
+2026-06-16 20:45:25 INFO  BaseTest - === Starting Test Setup ===
+2026-06-16 20:45:25 INFO  BaseTest - Initializing PayloadManager, AssertActions, and VWOPayloadManager
+2026-06-16 20:45:26 INFO  BaseTest - Base URL set to: https://restful-booker.herokuapp.com
+2026-06-16 20:45:26 INFO  BaseTest - === Test Setup Complete ===
+2026-06-16 20:45:26 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 20:45:26 INFO  BaseTest - === TC#INT1 - Step 1: Creating Booking ===
+2026-06-16 20:45:29 INFO  SchemaValidator - Validating response against schema: schemas/booking-response-schema.json
+2026-06-16 20:45:30 INFO  SchemaValidator - Schema validation passed for: booking-response-schema.json
+2026-06-16 20:45:30 WARN  RetryAnalyzer - Retrying test 'testCreateBooking' - Attempt 1 of 3
+2026-06-16 20:45:30 WARN  TestListener - Test Skipped: testCreateBooking
+2026-06-16 20:45:30 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 20:45:30 INFO  BaseTest - === TC#INT1 - Step 1: Creating Booking ===
+2026-06-16 20:45:31 INFO  SchemaValidator - Validating response against schema: schemas/booking-response-schema.json
+2026-06-16 20:45:31 INFO  SchemaValidator - Schema validation passed for: booking-response-schema.json
+2026-06-16 20:45:31 WARN  RetryAnalyzer - Retrying test 'testCreateBooking' - Attempt 2 of 3
+2026-06-16 20:45:31 WARN  TestListener - Test Skipped: testCreateBooking
+2026-06-16 20:45:31 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 20:45:31 INFO  BaseTest - === TC#INT1 - Step 1: Creating Booking ===
+2026-06-16 20:45:32 INFO  SchemaValidator - Validating response against schema: schemas/booking-response-schema.json
+2026-06-16 20:45:32 INFO  SchemaValidator - Schema validation passed for: booking-response-schema.json
+2026-06-16 20:45:32 WARN  RetryAnalyzer - Retrying test 'testCreateBooking' - Attempt 3 of 3
+2026-06-16 20:45:32 WARN  TestListener - Test Skipped: testCreateBooking
+2026-06-16 20:45:32 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 20:45:32 INFO  BaseTest - === TC#INT1 - Step 1: Creating Booking ===
+2026-06-16 20:45:34 INFO  SchemaValidator - Validating response against schema: schemas/booking-response-schema.json
+2026-06-16 20:45:34 INFO  SchemaValidator - Schema validation passed for: booking-response-schema.json
+2026-06-16 20:45:34 ERROR RetryAnalyzer - Test 'testCreateBooking' failed after 3 retry attempts
+2026-06-16 20:45:34 ERROR TestListener - Test Failed: testCreateBooking
+2026-06-16 20:45:34 ERROR TestListener - Failure Reason: 
+expected: "Lucky"
+ but was: "James"
+2026-06-16 20:45:34 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 20:45:34 INFO  BaseTest - === TC#INT1 - Step 2: Verifying Booking ID: null ===
+2026-06-16 20:45:35 WARN  RetryAnalyzer - Retrying test 'testVerifyBookingId' - Attempt 1 of 3
+2026-06-16 20:45:35 WARN  TestListener - Test Skipped: testVerifyBookingId
+2026-06-16 20:45:35 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 20:45:35 INFO  BaseTest - === TC#INT1 - Step 2: Verifying Booking ID: null ===
+2026-06-16 20:45:36 WARN  RetryAnalyzer - Retrying test 'testVerifyBookingId' - Attempt 2 of 3
+2026-06-16 20:45:36 WARN  TestListener - Test Skipped: testVerifyBookingId
+2026-06-16 20:45:36 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 20:45:36 INFO  BaseTest - === TC#INT1 - Step 2: Verifying Booking ID: null ===
+2026-06-16 20:45:37 WARN  RetryAnalyzer - Retrying test 'testVerifyBookingId' - Attempt 3 of 3
+2026-06-16 20:45:37 WARN  TestListener - Test Skipped: testVerifyBookingId
+2026-06-16 20:45:37 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 20:45:37 INFO  BaseTest - === TC#INT1 - Step 2: Verifying Booking ID: null ===
+2026-06-16 20:45:38 ERROR RetryAnalyzer - Test 'testVerifyBookingId' failed after 3 retry attempts
+2026-06-16 20:45:38 ERROR TestListener - Test Failed: testVerifyBookingId
+2026-06-16 20:45:38 ERROR TestListener - Failure Reason: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+2026-06-16 20:45:38 INFO  TestListener - Test Started: testUpdateBookingByID
+2026-06-16 20:45:38 INFO  BaseTest - === TC#INT1 - Step 3: Updating Booking ID: null ===
+2026-06-16 20:45:38 INFO  BaseTest - Generating authentication token
+2026-06-16 20:45:40 INFO  BaseTest - Token generated successfully
+2026-06-16 20:45:41 WARN  RetryAnalyzer - Retrying test 'testUpdateBookingByID' - Attempt 1 of 3
+2026-06-16 20:45:41 WARN  TestListener - Test Skipped: testUpdateBookingByID
+2026-06-16 20:45:41 INFO  TestListener - Test Started: testUpdateBookingByID
+2026-06-16 20:45:41 INFO  BaseTest - === TC#INT1 - Step 3: Updating Booking ID: null ===
+2026-06-16 20:45:41 INFO  BaseTest - Generating authentication token
+2026-06-16 20:45:42 INFO  BaseTest - Token generated successfully
+2026-06-16 20:45:43 WARN  RetryAnalyzer - Retrying test 'testUpdateBookingByID' - Attempt 2 of 3
+2026-06-16 20:45:43 WARN  TestListener - Test Skipped: testUpdateBookingByID
+2026-06-16 20:45:43 INFO  TestListener - Test Started: testUpdateBookingByID
+2026-06-16 20:45:43 INFO  BaseTest - === TC#INT1 - Step 3: Updating Booking ID: null ===
+2026-06-16 20:45:43 INFO  BaseTest - Generating authentication token
+2026-06-16 20:45:44 INFO  BaseTest - Token generated successfully
+2026-06-16 20:45:45 WARN  RetryAnalyzer - Retrying test 'testUpdateBookingByID' - Attempt 3 of 3
+2026-06-16 20:45:45 WARN  TestListener - Test Skipped: testUpdateBookingByID
+2026-06-16 20:45:45 INFO  TestListener - Test Started: testUpdateBookingByID
+2026-06-16 20:45:45 INFO  BaseTest - === TC#INT1 - Step 3: Updating Booking ID: null ===
+2026-06-16 20:45:45 INFO  BaseTest - Generating authentication token
+2026-06-16 20:45:46 INFO  BaseTest - Token generated successfully
+2026-06-16 20:45:48 ERROR RetryAnalyzer - Test 'testUpdateBookingByID' failed after 3 retry attempts
+2026-06-16 20:45:48 ERROR TestListener - Test Failed: testUpdateBookingByID
+2026-06-16 20:45:48 ERROR TestListener - Failure Reason: 1 expectation failed.
+Expected status code <200> but was <405>.
+
+2026-06-16 20:45:48 INFO  TestListener - Test Started: testDeleteBookingById
+2026-06-16 20:45:48 INFO  BaseTest - === TC#INT1 - Step 4: Deleting Booking ID: null ===
+2026-06-16 20:45:49 WARN  RetryAnalyzer - Retrying test 'testDeleteBookingById' - Attempt 1 of 3
+2026-06-16 20:45:49 WARN  TestListener - Test Skipped: testDeleteBookingById
+2026-06-16 20:45:49 INFO  TestListener - Test Started: testDeleteBookingById
+2026-06-16 20:45:49 INFO  BaseTest - === TC#INT1 - Step 4: Deleting Booking ID: null ===
+2026-06-16 20:45:50 WARN  RetryAnalyzer - Retrying test 'testDeleteBookingById' - Attempt 2 of 3
+2026-06-16 20:45:50 WARN  TestListener - Test Skipped: testDeleteBookingById
+2026-06-16 20:45:50 INFO  TestListener - Test Started: testDeleteBookingById
+2026-06-16 20:45:50 INFO  BaseTest - === TC#INT1 - Step 4: Deleting Booking ID: null ===
+2026-06-16 20:45:52 WARN  RetryAnalyzer - Retrying test 'testDeleteBookingById' - Attempt 3 of 3
+2026-06-16 20:45:52 WARN  TestListener - Test Skipped: testDeleteBookingById
+2026-06-16 20:45:52 INFO  TestListener - Test Started: testDeleteBookingById
+2026-06-16 20:45:52 INFO  BaseTest - === TC#INT1 - Step 4: Deleting Booking ID: null ===
+2026-06-16 20:45:53 ERROR RetryAnalyzer - Test 'testDeleteBookingById' failed after 3 retry attempts
+2026-06-16 20:45:53 ERROR TestListener - Test Failed: testDeleteBookingById
+2026-06-16 20:45:53 ERROR TestListener - Failure Reason: 1 expectation failed.
+Expected status code <201> but was <405>.
+
+2026-06-16 20:45:53 INFO  BaseTest - === Test Teardown Complete ===
+2026-06-16 20:45:53 INFO  BaseTest - === Starting Test Setup ===
+2026-06-16 20:45:53 INFO  BaseTest - Initializing PayloadManager, AssertActions, and VWOPayloadManager
+2026-06-16 20:45:53 INFO  BaseTest - Base URL set to: https://restful-booker.herokuapp.com
+2026-06-16 20:45:53 INFO  BaseTest - === Test Setup Complete ===
+2026-06-16 20:45:53 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 20:45:53 INFO  BaseTest - === TC#INT2 - Step 1: Creating Booking ===
+2026-06-16 20:45:54 WARN  RetryAnalyzer - Retrying test 'testCreateBooking' - Attempt 1 of 3
+2026-06-16 20:45:54 WARN  TestListener - Test Skipped: testCreateBooking
+2026-06-16 20:45:54 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 20:45:54 INFO  BaseTest - === TC#INT2 - Step 1: Creating Booking ===
+2026-06-16 20:45:55 WARN  RetryAnalyzer - Retrying test 'testCreateBooking' - Attempt 2 of 3
+2026-06-16 20:45:55 WARN  TestListener - Test Skipped: testCreateBooking
+2026-06-16 20:45:55 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 20:45:55 INFO  BaseTest - === TC#INT2 - Step 1: Creating Booking ===
+2026-06-16 20:45:56 WARN  RetryAnalyzer - Retrying test 'testCreateBooking' - Attempt 3 of 3
+2026-06-16 20:45:56 WARN  TestListener - Test Skipped: testCreateBooking
+2026-06-16 20:45:56 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 20:45:56 INFO  BaseTest - === TC#INT2 - Step 1: Creating Booking ===
+2026-06-16 20:45:57 ERROR RetryAnalyzer - Test 'testCreateBooking' failed after 3 retry attempts
+2026-06-16 20:45:57 ERROR TestListener - Test Failed: testCreateBooking
+2026-06-16 20:45:57 ERROR TestListener - Failure Reason: 
+expected: "Lucky"
+ but was: "James"
+2026-06-16 20:45:57 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 20:45:57 INFO  BaseTest - === TC#INT2 - Step 2: Verifying Booking ID: null ===
+2026-06-16 20:45:59 WARN  RetryAnalyzer - Retrying test 'testVerifyBookingId' - Attempt 1 of 3
+2026-06-16 20:45:59 WARN  TestListener - Test Skipped: testVerifyBookingId
+2026-06-16 20:45:59 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 20:45:59 INFO  BaseTest - === TC#INT2 - Step 2: Verifying Booking ID: null ===
+2026-06-16 20:46:00 WARN  RetryAnalyzer - Retrying test 'testVerifyBookingId' - Attempt 2 of 3
+2026-06-16 20:46:00 WARN  TestListener - Test Skipped: testVerifyBookingId
+2026-06-16 20:46:00 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 20:46:00 INFO  BaseTest - === TC#INT2 - Step 2: Verifying Booking ID: null ===
+2026-06-16 20:46:01 WARN  RetryAnalyzer - Retrying test 'testVerifyBookingId' - Attempt 3 of 3
+2026-06-16 20:46:01 WARN  TestListener - Test Skipped: testVerifyBookingId
+2026-06-16 20:46:01 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 20:46:01 INFO  BaseTest - === TC#INT2 - Step 2: Verifying Booking ID: null ===
+2026-06-16 20:46:02 ERROR RetryAnalyzer - Test 'testVerifyBookingId' failed after 3 retry attempts
+2026-06-16 20:46:02 ERROR TestListener - Test Failed: testVerifyBookingId
+2026-06-16 20:46:02 ERROR TestListener - Failure Reason: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+2026-06-16 20:46:02 INFO  TestListener - Test Started: testPartialUpdateBookingByID
+2026-06-16 20:46:02 INFO  BaseTest - === TC#INT2 - Step 3: PATCH Booking ID: null ===
+2026-06-16 20:46:02 INFO  BaseTest - Generating authentication token
+2026-06-16 20:46:03 INFO  BaseTest - Token generated successfully
+2026-06-16 20:46:04 WARN  RetryAnalyzer - Retrying test 'testPartialUpdateBookingByID' - Attempt 1 of 3
+2026-06-16 20:46:04 WARN  TestListener - Test Skipped: testPartialUpdateBookingByID
+2026-06-16 20:46:04 INFO  TestListener - Test Started: testPartialUpdateBookingByID
+2026-06-16 20:46:04 INFO  BaseTest - === TC#INT2 - Step 3: PATCH Booking ID: null ===
+2026-06-16 20:46:04 INFO  BaseTest - Generating authentication token
+2026-06-16 20:46:05 INFO  BaseTest - Token generated successfully
+2026-06-16 20:46:07 WARN  RetryAnalyzer - Retrying test 'testPartialUpdateBookingByID' - Attempt 2 of 3
+2026-06-16 20:46:07 WARN  TestListener - Test Skipped: testPartialUpdateBookingByID
+2026-06-16 20:46:07 INFO  TestListener - Test Started: testPartialUpdateBookingByID
+2026-06-16 20:46:07 INFO  BaseTest - === TC#INT2 - Step 3: PATCH Booking ID: null ===
+2026-06-16 20:46:07 INFO  BaseTest - Generating authentication token
+2026-06-16 20:46:08 INFO  BaseTest - Token generated successfully
+2026-06-16 20:46:09 WARN  RetryAnalyzer - Retrying test 'testPartialUpdateBookingByID' - Attempt 3 of 3
+2026-06-16 20:46:09 WARN  TestListener - Test Skipped: testPartialUpdateBookingByID
+2026-06-16 20:46:09 INFO  TestListener - Test Started: testPartialUpdateBookingByID
+2026-06-16 20:46:09 INFO  BaseTest - === TC#INT2 - Step 3: PATCH Booking ID: null ===
+2026-06-16 20:46:09 INFO  BaseTest - Generating authentication token
+2026-06-16 20:46:10 INFO  BaseTest - Token generated successfully
+2026-06-16 20:46:11 ERROR RetryAnalyzer - Test 'testPartialUpdateBookingByID' failed after 3 retry attempts
+2026-06-16 20:46:11 ERROR TestListener - Test Failed: testPartialUpdateBookingByID
+2026-06-16 20:46:11 ERROR TestListener - Failure Reason: 1 expectation failed.
+Expected status code <200> but was <405>.
+
+2026-06-16 20:46:11 INFO  TestListener - Test Started: testVerifyPatchUpdate
+2026-06-16 20:46:11 INFO  BaseTest - === TC#INT2 - Step 4: Verifying PATCH for Booking ID: null ===
+2026-06-16 20:46:12 WARN  RetryAnalyzer - Retrying test 'testVerifyPatchUpdate' - Attempt 1 of 3
+2026-06-16 20:46:12 WARN  TestListener - Test Skipped: testVerifyPatchUpdate
+2026-06-16 20:46:12 INFO  TestListener - Test Started: testVerifyPatchUpdate
+2026-06-16 20:46:12 INFO  BaseTest - === TC#INT2 - Step 4: Verifying PATCH for Booking ID: null ===
+2026-06-16 20:46:13 WARN  RetryAnalyzer - Retrying test 'testVerifyPatchUpdate' - Attempt 2 of 3
+2026-06-16 20:46:13 WARN  TestListener - Test Skipped: testVerifyPatchUpdate
+2026-06-16 20:46:13 INFO  TestListener - Test Started: testVerifyPatchUpdate
+2026-06-16 20:46:13 INFO  BaseTest - === TC#INT2 - Step 4: Verifying PATCH for Booking ID: null ===
+2026-06-16 20:46:14 WARN  RetryAnalyzer - Retrying test 'testVerifyPatchUpdate' - Attempt 3 of 3
+2026-06-16 20:46:14 WARN  TestListener - Test Skipped: testVerifyPatchUpdate
+2026-06-16 20:46:14 INFO  TestListener - Test Started: testVerifyPatchUpdate
+2026-06-16 20:46:14 INFO  BaseTest - === TC#INT2 - Step 4: Verifying PATCH for Booking ID: null ===
+2026-06-16 20:46:16 ERROR RetryAnalyzer - Test 'testVerifyPatchUpdate' failed after 3 retry attempts
+2026-06-16 20:46:16 ERROR TestListener - Test Failed: testVerifyPatchUpdate
+2026-06-16 20:46:16 ERROR TestListener - Failure Reason: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+2026-06-16 20:46:16 INFO  BaseTest - === Test Teardown Complete ===
+2026-06-16 20:46:16 INFO  BaseTest - === Starting Test Setup ===
+2026-06-16 20:46:16 INFO  BaseTest - Initializing PayloadManager, AssertActions, and VWOPayloadManager
+2026-06-16 20:46:16 INFO  BaseTest - Base URL set to: https://restful-booker.herokuapp.com
+2026-06-16 20:46:16 INFO  BaseTest - === Test Setup Complete ===
+2026-06-16 20:46:16 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 20:46:16 INFO  BaseTest - === TC#INT3 - Step 1: Creating Booking ===
+2026-06-16 20:46:17 INFO  BaseTest - Booking created successfully with ID: 2786
+2026-06-16 20:46:17 INFO  TestListener - Test Passed: testCreateBooking (Duration: 1136 ms)
+2026-06-16 20:46:17 INFO  TestListener - Test Started: testDeleteBooking
+2026-06-16 20:46:17 INFO  BaseTest - === TC#INT3 - Step 2: Deleting Booking ID: 2786 ===
+2026-06-16 20:46:17 INFO  BaseTest - Generating authentication token
+2026-06-16 20:46:18 INFO  BaseTest - Token generated successfully
+2026-06-16 20:46:19 INFO  BaseTest - Booking deleted successfully for ID: 2786
+2026-06-16 20:46:19 INFO  TestListener - Test Passed: testDeleteBooking (Duration: 2293 ms)
+2026-06-16 20:46:19 INFO  TestListener - Test Started: testVerifyBookingDeleted
+2026-06-16 20:46:19 INFO  BaseTest - === TC#INT3 - Step 3: Verifying Booking ID: 2786 is deleted ===
+2026-06-16 20:46:20 INFO  BaseTest - Verified booking ID: 2786 is deleted (404 Not Found)
+2026-06-16 20:46:20 INFO  TestListener - Test Passed: testVerifyBookingDeleted (Duration: 1144 ms)
+2026-06-16 20:46:20 INFO  BaseTest - === Test Teardown Complete ===
+2026-06-16 20:46:20 INFO  BaseTest - === Starting Test Setup ===
+2026-06-16 20:46:20 INFO  BaseTest - Initializing PayloadManager, AssertActions, and VWOPayloadManager
+2026-06-16 20:46:20 INFO  BaseTest - Base URL set to: https://restful-booker.herokuapp.com
+2026-06-16 20:46:20 INFO  BaseTest - === Test Setup Complete ===
+2026-06-16 20:46:20 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 20:46:20 INFO  BaseTest - === TC#INT4 - Step 1: Creating Booking via API ===
+2026-06-16 20:46:21 INFO  BaseTest - Booking created via API with ID: 2827, firstname: James, lastname: Brown
+2026-06-16 20:46:21 INFO  TestListener - Test Passed: testCreateBooking (Duration: 1127 ms)
+2026-06-16 20:46:21 INFO  TestListener - Test Started: testValidateBookingInDatabase
+2026-06-16 20:46:21 INFO  BaseTest - === TC#INT4 - Step 2: Validating Booking ID: 2827 in Database ===
+2026-06-16 20:46:21 ERROR BaseTest - Database validation failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 20:46:21 WARN  RetryAnalyzer - Retrying test 'testValidateBookingInDatabase' - Attempt 1 of 3
+2026-06-16 20:46:21 WARN  TestListener - Test Skipped: testValidateBookingInDatabase
+2026-06-16 20:46:21 INFO  TestListener - Test Started: testValidateBookingInDatabase
+2026-06-16 20:46:21 INFO  BaseTest - === TC#INT4 - Step 2: Validating Booking ID: 2827 in Database ===
+2026-06-16 20:46:21 ERROR BaseTest - Database validation failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 20:46:21 WARN  RetryAnalyzer - Retrying test 'testValidateBookingInDatabase' - Attempt 2 of 3
+2026-06-16 20:46:21 WARN  TestListener - Test Skipped: testValidateBookingInDatabase
+2026-06-16 20:46:21 INFO  TestListener - Test Started: testValidateBookingInDatabase
+2026-06-16 20:46:21 INFO  BaseTest - === TC#INT4 - Step 2: Validating Booking ID: 2827 in Database ===
+2026-06-16 20:46:21 ERROR BaseTest - Database validation failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 20:46:21 WARN  RetryAnalyzer - Retrying test 'testValidateBookingInDatabase' - Attempt 3 of 3
+2026-06-16 20:46:21 WARN  TestListener - Test Skipped: testValidateBookingInDatabase
+2026-06-16 20:46:21 INFO  TestListener - Test Started: testValidateBookingInDatabase
+2026-06-16 20:46:21 INFO  BaseTest - === TC#INT4 - Step 2: Validating Booking ID: 2827 in Database ===
+2026-06-16 20:46:21 ERROR BaseTest - Database validation failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 20:46:21 ERROR RetryAnalyzer - Test 'testValidateBookingInDatabase' failed after 3 retry attempts
+2026-06-16 20:46:21 ERROR TestListener - Test Failed: testValidateBookingInDatabase
+2026-06-16 20:46:21 ERROR TestListener - Failure Reason: Database validation failed for booking ID: 2827
+2026-06-16 20:46:21 INFO  TestListener - Test Started: testUpdateBookingViaAPI
+2026-06-16 20:46:21 INFO  BaseTest - === TC#INT4 - Step 3: Updating Booking ID: 2827 via API ===
+2026-06-16 20:46:21 INFO  BaseTest - Generating authentication token
+2026-06-16 20:46:22 INFO  BaseTest - Token generated successfully
+2026-06-16 20:46:24 INFO  BaseTest - Booking updated via API - firstname: UpdatedJohn, lastname: UpdatedDoe
+2026-06-16 20:46:24 INFO  TestListener - Test Passed: testUpdateBookingViaAPI (Duration: 2237 ms)
+2026-06-16 20:46:24 INFO  TestListener - Test Started: testVerifyUpdateInDatabase
+2026-06-16 20:46:24 INFO  BaseTest - === TC#INT4 - Step 4: Verifying Update in Database for Booking ID: 2827 ===
+2026-06-16 20:46:24 ERROR BaseTest - Database verification failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 20:46:24 WARN  RetryAnalyzer - Retrying test 'testVerifyUpdateInDatabase' - Attempt 1 of 3
+2026-06-16 20:46:24 WARN  TestListener - Test Skipped: testVerifyUpdateInDatabase
+2026-06-16 20:46:24 INFO  TestListener - Test Started: testVerifyUpdateInDatabase
+2026-06-16 20:46:24 INFO  BaseTest - === TC#INT4 - Step 4: Verifying Update in Database for Booking ID: 2827 ===
+2026-06-16 20:46:24 ERROR BaseTest - Database verification failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 20:46:24 WARN  RetryAnalyzer - Retrying test 'testVerifyUpdateInDatabase' - Attempt 2 of 3
+2026-06-16 20:46:24 WARN  TestListener - Test Skipped: testVerifyUpdateInDatabase
+2026-06-16 20:46:24 INFO  TestListener - Test Started: testVerifyUpdateInDatabase
+2026-06-16 20:46:24 INFO  BaseTest - === TC#INT4 - Step 4: Verifying Update in Database for Booking ID: 2827 ===
+2026-06-16 20:46:24 ERROR BaseTest - Database verification failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 20:46:24 WARN  RetryAnalyzer - Retrying test 'testVerifyUpdateInDatabase' - Attempt 3 of 3
+2026-06-16 20:46:24 WARN  TestListener - Test Skipped: testVerifyUpdateInDatabase
+2026-06-16 20:46:24 INFO  TestListener - Test Started: testVerifyUpdateInDatabase
+2026-06-16 20:46:24 INFO  BaseTest - === TC#INT4 - Step 4: Verifying Update in Database for Booking ID: 2827 ===
+2026-06-16 20:46:24 ERROR BaseTest - Database verification failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 20:46:24 ERROR RetryAnalyzer - Test 'testVerifyUpdateInDatabase' failed after 3 retry attempts
+2026-06-16 20:46:24 ERROR TestListener - Test Failed: testVerifyUpdateInDatabase
+2026-06-16 20:46:24 ERROR TestListener - Failure Reason: Database verification failed for booking ID: 2827
+2026-06-16 20:46:24 INFO  BaseTest - === Test Teardown Complete ===
+2026-06-16 20:46:24 INFO  TestListener - === Test Suite Finished: E2E Integration Tests ===
+2026-06-16 20:46:24 INFO  TestListener - Passed: 5, Failed: 10, Skipped: 30
+2026-06-16 20:46:24 INFO  TestListener - === Test Suite Started: Data-Driven Tests ===
+2026-06-16 20:46:24 INFO  BaseTest - === Starting Test Setup ===
+2026-06-16 20:46:24 INFO  BaseTest - Initializing PayloadManager, AssertActions, and VWOPayloadManager
+2026-06-16 20:46:24 INFO  BaseTest - Base URL set to: https://restful-booker.herokuapp.com
+2026-06-16 20:46:24 INFO  BaseTest - === Test Setup Complete ===
+2026-06-16 20:46:24 INFO  BaseTest - Loading test data from Excel file
+2026-06-16 20:46:24 ERROR TestListener - Test Failed: testCreateAndVerifyBookingFromExcel
+2026-06-16 20:46:24 ERROR TestListener - Failure Reason: org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2026-06-16 20:46:24 INFO  BaseTest - Loading test data from Excel file
+2026-06-16 20:46:24 ERROR TestListener - Test Failed: testCreateBookingFromExcel
+2026-06-16 20:46:24 ERROR TestListener - Failure Reason: org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2026-06-16 20:46:24 INFO  BaseTest - === Test Teardown Complete ===
+2026-06-16 20:46:24 INFO  TestListener - === Test Suite Finished: Data-Driven Tests ===
+2026-06-16 20:46:24 INFO  TestListener - Passed: 0, Failed: 2, Skipped: 0
+2026-06-16 20:49:52 INFO  TestListener - === Test Suite Started: Sample Tests ===
+2026-06-16 20:49:52 INFO  TestListener - Test Started: test_hello_world_positive
+2026-06-16 20:49:52 INFO  TestListener - Test Passed: test_hello_world_positive (Duration: 67 ms)
+2026-06-16 20:49:52 INFO  TestListener - Test Started: test_hello_world_negative
+2026-06-16 20:49:52 WARN  RetryAnalyzer - Retrying test 'test_hello_world_negative' - Attempt 1 of 3
+2026-06-16 20:49:52 WARN  TestListener - Test Skipped: test_hello_world_negative
+2026-06-16 20:49:52 INFO  TestListener - Test Started: test_hello_world_negative
+2026-06-16 20:49:52 WARN  RetryAnalyzer - Retrying test 'test_hello_world_negative' - Attempt 2 of 3
+2026-06-16 20:49:52 WARN  TestListener - Test Skipped: test_hello_world_negative
+2026-06-16 20:49:52 INFO  TestListener - Test Started: test_hello_world_negative
+2026-06-16 20:49:52 WARN  RetryAnalyzer - Retrying test 'test_hello_world_negative' - Attempt 3 of 3
+2026-06-16 20:49:52 WARN  TestListener - Test Skipped: test_hello_world_negative
+2026-06-16 20:49:52 INFO  TestListener - Test Started: test_hello_world_negative
+2026-06-16 20:49:52 ERROR RetryAnalyzer - Test 'test_hello_world_negative' failed after 3 retry attempts
+2026-06-16 20:49:52 ERROR TestListener - Test Failed: test_hello_world_negative
+2026-06-16 20:49:52 ERROR TestListener - Failure Reason: expected [Pramod] but found [pramod]
+2026-06-16 20:49:52 INFO  TestListener - === Test Suite Finished: Sample Tests ===
+2026-06-16 20:49:52 INFO  TestListener - Passed: 1, Failed: 1, Skipped: 3
+2026-06-16 22:31:40 INFO  TestListener - === Test Suite Started: E2E Integration Tests ===
+2026-06-16 22:31:40 INFO  BaseTest - === Starting Test Setup ===
+2026-06-16 22:31:40 INFO  BaseTest - Initializing PayloadManager, AssertActions, and VWOPayloadManager
+2026-06-16 22:31:42 INFO  BaseTest - Base URL set to: https://restful-booker.herokuapp.com
+2026-06-16 22:31:42 INFO  BaseTest - === Test Setup Complete ===
+2026-06-16 22:31:42 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 22:31:42 INFO  BaseTest - === TC#INT1 - Step 1: Creating Booking ===
+2026-06-16 22:31:45 INFO  SchemaValidator - Validating response against schema: schemas/booking-response-schema.json
+2026-06-16 22:31:45 INFO  SchemaValidator - Schema validation passed for: booking-response-schema.json
+2026-06-16 22:31:45 WARN  RetryAnalyzer - Retrying test 'testCreateBooking' - Attempt 1 of 3
+2026-06-16 22:31:45 WARN  TestListener - Test Skipped: testCreateBooking
+2026-06-16 22:31:45 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 22:31:45 INFO  BaseTest - === TC#INT1 - Step 1: Creating Booking ===
+2026-06-16 22:31:47 INFO  SchemaValidator - Validating response against schema: schemas/booking-response-schema.json
+2026-06-16 22:31:47 INFO  SchemaValidator - Schema validation passed for: booking-response-schema.json
+2026-06-16 22:31:47 WARN  RetryAnalyzer - Retrying test 'testCreateBooking' - Attempt 2 of 3
+2026-06-16 22:31:47 WARN  TestListener - Test Skipped: testCreateBooking
+2026-06-16 22:31:47 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 22:31:47 INFO  BaseTest - === TC#INT1 - Step 1: Creating Booking ===
+2026-06-16 22:31:48 INFO  SchemaValidator - Validating response against schema: schemas/booking-response-schema.json
+2026-06-16 22:31:48 INFO  SchemaValidator - Schema validation passed for: booking-response-schema.json
+2026-06-16 22:31:48 WARN  RetryAnalyzer - Retrying test 'testCreateBooking' - Attempt 3 of 3
+2026-06-16 22:31:48 WARN  TestListener - Test Skipped: testCreateBooking
+2026-06-16 22:31:48 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 22:31:48 INFO  BaseTest - === TC#INT1 - Step 1: Creating Booking ===
+2026-06-16 22:31:49 INFO  SchemaValidator - Validating response against schema: schemas/booking-response-schema.json
+2026-06-16 22:31:49 INFO  SchemaValidator - Schema validation passed for: booking-response-schema.json
+2026-06-16 22:31:49 ERROR RetryAnalyzer - Test 'testCreateBooking' failed after 3 retry attempts
+2026-06-16 22:31:49 ERROR TestListener - Test Failed: testCreateBooking
+2026-06-16 22:31:49 ERROR TestListener - Failure Reason: 
+expected: "Lucky"
+ but was: "James"
+2026-06-16 22:31:50 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 22:31:50 INFO  BaseTest - === TC#INT1 - Step 2: Verifying Booking ID: null ===
+2026-06-16 22:31:51 WARN  RetryAnalyzer - Retrying test 'testVerifyBookingId' - Attempt 1 of 3
+2026-06-16 22:31:51 WARN  TestListener - Test Skipped: testVerifyBookingId
+2026-06-16 22:31:51 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 22:31:51 INFO  BaseTest - === TC#INT1 - Step 2: Verifying Booking ID: null ===
+2026-06-16 22:31:53 WARN  RetryAnalyzer - Retrying test 'testVerifyBookingId' - Attempt 2 of 3
+2026-06-16 22:31:53 WARN  TestListener - Test Skipped: testVerifyBookingId
+2026-06-16 22:31:53 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 22:31:53 INFO  BaseTest - === TC#INT1 - Step 2: Verifying Booking ID: null ===
+2026-06-16 22:31:54 WARN  RetryAnalyzer - Retrying test 'testVerifyBookingId' - Attempt 3 of 3
+2026-06-16 22:31:54 WARN  TestListener - Test Skipped: testVerifyBookingId
+2026-06-16 22:31:54 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 22:31:54 INFO  BaseTest - === TC#INT1 - Step 2: Verifying Booking ID: null ===
+2026-06-16 22:31:55 ERROR RetryAnalyzer - Test 'testVerifyBookingId' failed after 3 retry attempts
+2026-06-16 22:31:55 ERROR TestListener - Test Failed: testVerifyBookingId
+2026-06-16 22:31:55 ERROR TestListener - Failure Reason: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+2026-06-16 22:31:55 INFO  TestListener - Test Started: testUpdateBookingByID
+2026-06-16 22:31:55 INFO  BaseTest - === TC#INT1 - Step 3: Updating Booking ID: null ===
+2026-06-16 22:31:55 INFO  BaseTest - Generating authentication token
+2026-06-16 22:31:56 INFO  BaseTest - Token generated successfully
+2026-06-16 22:31:58 WARN  RetryAnalyzer - Retrying test 'testUpdateBookingByID' - Attempt 1 of 3
+2026-06-16 22:31:58 WARN  TestListener - Test Skipped: testUpdateBookingByID
+2026-06-16 22:31:58 INFO  TestListener - Test Started: testUpdateBookingByID
+2026-06-16 22:31:58 INFO  BaseTest - === TC#INT1 - Step 3: Updating Booking ID: null ===
+2026-06-16 22:31:58 INFO  BaseTest - Generating authentication token
+2026-06-16 22:31:59 INFO  BaseTest - Token generated successfully
+2026-06-16 22:32:00 WARN  RetryAnalyzer - Retrying test 'testUpdateBookingByID' - Attempt 2 of 3
+2026-06-16 22:32:00 WARN  TestListener - Test Skipped: testUpdateBookingByID
+2026-06-16 22:32:00 INFO  TestListener - Test Started: testUpdateBookingByID
+2026-06-16 22:32:00 INFO  BaseTest - === TC#INT1 - Step 3: Updating Booking ID: null ===
+2026-06-16 22:32:00 INFO  BaseTest - Generating authentication token
+2026-06-16 22:32:02 INFO  BaseTest - Token generated successfully
+2026-06-16 22:32:03 WARN  RetryAnalyzer - Retrying test 'testUpdateBookingByID' - Attempt 3 of 3
+2026-06-16 22:32:03 WARN  TestListener - Test Skipped: testUpdateBookingByID
+2026-06-16 22:32:03 INFO  TestListener - Test Started: testUpdateBookingByID
+2026-06-16 22:32:03 INFO  BaseTest - === TC#INT1 - Step 3: Updating Booking ID: null ===
+2026-06-16 22:32:03 INFO  BaseTest - Generating authentication token
+2026-06-16 22:32:04 INFO  BaseTest - Token generated successfully
+2026-06-16 22:32:05 ERROR RetryAnalyzer - Test 'testUpdateBookingByID' failed after 3 retry attempts
+2026-06-16 22:32:05 ERROR TestListener - Test Failed: testUpdateBookingByID
+2026-06-16 22:32:05 ERROR TestListener - Failure Reason: 1 expectation failed.
+Expected status code <200> but was <405>.
+
+2026-06-16 22:32:05 INFO  TestListener - Test Started: testDeleteBookingById
+2026-06-16 22:32:05 INFO  BaseTest - === TC#INT1 - Step 4: Deleting Booking ID: null ===
+2026-06-16 22:32:07 WARN  RetryAnalyzer - Retrying test 'testDeleteBookingById' - Attempt 1 of 3
+2026-06-16 22:32:07 WARN  TestListener - Test Skipped: testDeleteBookingById
+2026-06-16 22:32:07 INFO  TestListener - Test Started: testDeleteBookingById
+2026-06-16 22:32:07 INFO  BaseTest - === TC#INT1 - Step 4: Deleting Booking ID: null ===
+2026-06-16 22:32:08 WARN  RetryAnalyzer - Retrying test 'testDeleteBookingById' - Attempt 2 of 3
+2026-06-16 22:32:08 WARN  TestListener - Test Skipped: testDeleteBookingById
+2026-06-16 22:32:08 INFO  TestListener - Test Started: testDeleteBookingById
+2026-06-16 22:32:08 INFO  BaseTest - === TC#INT1 - Step 4: Deleting Booking ID: null ===
+2026-06-16 22:32:09 WARN  RetryAnalyzer - Retrying test 'testDeleteBookingById' - Attempt 3 of 3
+2026-06-16 22:32:09 WARN  TestListener - Test Skipped: testDeleteBookingById
+2026-06-16 22:32:09 INFO  TestListener - Test Started: testDeleteBookingById
+2026-06-16 22:32:09 INFO  BaseTest - === TC#INT1 - Step 4: Deleting Booking ID: null ===
+2026-06-16 22:32:11 ERROR RetryAnalyzer - Test 'testDeleteBookingById' failed after 3 retry attempts
+2026-06-16 22:32:11 ERROR TestListener - Test Failed: testDeleteBookingById
+2026-06-16 22:32:11 ERROR TestListener - Failure Reason: 1 expectation failed.
+Expected status code <201> but was <405>.
+
+2026-06-16 22:32:11 INFO  BaseTest - === Test Teardown Complete ===
+2026-06-16 22:32:11 INFO  BaseTest - === Starting Test Setup ===
+2026-06-16 22:32:11 INFO  BaseTest - Initializing PayloadManager, AssertActions, and VWOPayloadManager
+2026-06-16 22:32:11 INFO  BaseTest - Base URL set to: https://restful-booker.herokuapp.com
+2026-06-16 22:32:11 INFO  BaseTest - === Test Setup Complete ===
+2026-06-16 22:32:11 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 22:32:11 INFO  BaseTest - === TC#INT2 - Step 1: Creating Booking ===
+2026-06-16 22:32:12 WARN  RetryAnalyzer - Retrying test 'testCreateBooking' - Attempt 1 of 3
+2026-06-16 22:32:12 WARN  TestListener - Test Skipped: testCreateBooking
+2026-06-16 22:32:12 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 22:32:12 INFO  BaseTest - === TC#INT2 - Step 1: Creating Booking ===
+2026-06-16 22:32:13 WARN  RetryAnalyzer - Retrying test 'testCreateBooking' - Attempt 2 of 3
+2026-06-16 22:32:13 WARN  TestListener - Test Skipped: testCreateBooking
+2026-06-16 22:32:13 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 22:32:13 INFO  BaseTest - === TC#INT2 - Step 1: Creating Booking ===
+2026-06-16 22:32:15 WARN  RetryAnalyzer - Retrying test 'testCreateBooking' - Attempt 3 of 3
+2026-06-16 22:32:15 WARN  TestListener - Test Skipped: testCreateBooking
+2026-06-16 22:32:15 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 22:32:15 INFO  BaseTest - === TC#INT2 - Step 1: Creating Booking ===
+2026-06-16 22:32:16 ERROR RetryAnalyzer - Test 'testCreateBooking' failed after 3 retry attempts
+2026-06-16 22:32:16 ERROR TestListener - Test Failed: testCreateBooking
+2026-06-16 22:32:16 ERROR TestListener - Failure Reason: 
+expected: "Lucky"
+ but was: "James"
+2026-06-16 22:32:16 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 22:32:16 INFO  BaseTest - === TC#INT2 - Step 2: Verifying Booking ID: null ===
+2026-06-16 22:32:18 WARN  RetryAnalyzer - Retrying test 'testVerifyBookingId' - Attempt 1 of 3
+2026-06-16 22:32:18 WARN  TestListener - Test Skipped: testVerifyBookingId
+2026-06-16 22:32:18 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 22:32:18 INFO  BaseTest - === TC#INT2 - Step 2: Verifying Booking ID: null ===
+2026-06-16 22:32:19 WARN  RetryAnalyzer - Retrying test 'testVerifyBookingId' - Attempt 2 of 3
+2026-06-16 22:32:19 WARN  TestListener - Test Skipped: testVerifyBookingId
+2026-06-16 22:32:19 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 22:32:19 INFO  BaseTest - === TC#INT2 - Step 2: Verifying Booking ID: null ===
+2026-06-16 22:32:20 WARN  RetryAnalyzer - Retrying test 'testVerifyBookingId' - Attempt 3 of 3
+2026-06-16 22:32:20 WARN  TestListener - Test Skipped: testVerifyBookingId
+2026-06-16 22:32:20 INFO  TestListener - Test Started: testVerifyBookingId
+2026-06-16 22:32:20 INFO  BaseTest - === TC#INT2 - Step 2: Verifying Booking ID: null ===
+2026-06-16 22:32:21 ERROR RetryAnalyzer - Test 'testVerifyBookingId' failed after 3 retry attempts
+2026-06-16 22:32:21 ERROR TestListener - Test Failed: testVerifyBookingId
+2026-06-16 22:32:21 ERROR TestListener - Failure Reason: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+2026-06-16 22:32:21 INFO  TestListener - Test Started: testPartialUpdateBookingByID
+2026-06-16 22:32:21 INFO  BaseTest - === TC#INT2 - Step 3: PATCH Booking ID: null ===
+2026-06-16 22:32:21 INFO  BaseTest - Generating authentication token
+2026-06-16 22:32:23 INFO  BaseTest - Token generated successfully
+2026-06-16 22:32:24 WARN  RetryAnalyzer - Retrying test 'testPartialUpdateBookingByID' - Attempt 1 of 3
+2026-06-16 22:32:24 WARN  TestListener - Test Skipped: testPartialUpdateBookingByID
+2026-06-16 22:32:24 INFO  TestListener - Test Started: testPartialUpdateBookingByID
+2026-06-16 22:32:24 INFO  BaseTest - === TC#INT2 - Step 3: PATCH Booking ID: null ===
+2026-06-16 22:32:24 INFO  BaseTest - Generating authentication token
+2026-06-16 22:32:25 INFO  BaseTest - Token generated successfully
+2026-06-16 22:32:26 WARN  RetryAnalyzer - Retrying test 'testPartialUpdateBookingByID' - Attempt 2 of 3
+2026-06-16 22:32:26 WARN  TestListener - Test Skipped: testPartialUpdateBookingByID
+2026-06-16 22:32:26 INFO  TestListener - Test Started: testPartialUpdateBookingByID
+2026-06-16 22:32:26 INFO  BaseTest - === TC#INT2 - Step 3: PATCH Booking ID: null ===
+2026-06-16 22:32:26 INFO  BaseTest - Generating authentication token
+2026-06-16 22:32:28 INFO  BaseTest - Token generated successfully
+2026-06-16 22:32:29 WARN  RetryAnalyzer - Retrying test 'testPartialUpdateBookingByID' - Attempt 3 of 3
+2026-06-16 22:32:29 WARN  TestListener - Test Skipped: testPartialUpdateBookingByID
+2026-06-16 22:32:29 INFO  TestListener - Test Started: testPartialUpdateBookingByID
+2026-06-16 22:32:29 INFO  BaseTest - === TC#INT2 - Step 3: PATCH Booking ID: null ===
+2026-06-16 22:32:29 INFO  BaseTest - Generating authentication token
+2026-06-16 22:32:30 INFO  BaseTest - Token generated successfully
+2026-06-16 22:32:32 ERROR RetryAnalyzer - Test 'testPartialUpdateBookingByID' failed after 3 retry attempts
+2026-06-16 22:32:32 ERROR TestListener - Test Failed: testPartialUpdateBookingByID
+2026-06-16 22:32:32 ERROR TestListener - Failure Reason: 1 expectation failed.
+Expected status code <200> but was <405>.
+
+2026-06-16 22:32:32 INFO  TestListener - Test Started: testVerifyPatchUpdate
+2026-06-16 22:32:32 INFO  BaseTest - === TC#INT2 - Step 4: Verifying PATCH for Booking ID: null ===
+2026-06-16 22:32:33 WARN  RetryAnalyzer - Retrying test 'testVerifyPatchUpdate' - Attempt 1 of 3
+2026-06-16 22:32:33 WARN  TestListener - Test Skipped: testVerifyPatchUpdate
+2026-06-16 22:32:33 INFO  TestListener - Test Started: testVerifyPatchUpdate
+2026-06-16 22:32:33 INFO  BaseTest - === TC#INT2 - Step 4: Verifying PATCH for Booking ID: null ===
+2026-06-16 22:32:34 WARN  RetryAnalyzer - Retrying test 'testVerifyPatchUpdate' - Attempt 2 of 3
+2026-06-16 22:32:34 WARN  TestListener - Test Skipped: testVerifyPatchUpdate
+2026-06-16 22:32:34 INFO  TestListener - Test Started: testVerifyPatchUpdate
+2026-06-16 22:32:34 INFO  BaseTest - === TC#INT2 - Step 4: Verifying PATCH for Booking ID: null ===
+2026-06-16 22:32:35 WARN  RetryAnalyzer - Retrying test 'testVerifyPatchUpdate' - Attempt 3 of 3
+2026-06-16 22:32:35 WARN  TestListener - Test Skipped: testVerifyPatchUpdate
+2026-06-16 22:32:35 INFO  TestListener - Test Started: testVerifyPatchUpdate
+2026-06-16 22:32:35 INFO  BaseTest - === TC#INT2 - Step 4: Verifying PATCH for Booking ID: null ===
+2026-06-16 22:32:37 ERROR RetryAnalyzer - Test 'testVerifyPatchUpdate' failed after 3 retry attempts
+2026-06-16 22:32:37 ERROR TestListener - Test Failed: testVerifyPatchUpdate
+2026-06-16 22:32:37 ERROR TestListener - Failure Reason: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+2026-06-16 22:32:37 INFO  BaseTest - === Test Teardown Complete ===
+2026-06-16 22:32:37 INFO  BaseTest - === Starting Test Setup ===
+2026-06-16 22:32:37 INFO  BaseTest - Initializing PayloadManager, AssertActions, and VWOPayloadManager
+2026-06-16 22:32:37 INFO  BaseTest - Base URL set to: https://restful-booker.herokuapp.com
+2026-06-16 22:32:37 INFO  BaseTest - === Test Setup Complete ===
+2026-06-16 22:32:37 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 22:32:37 INFO  BaseTest - === TC#INT3 - Step 1: Creating Booking ===
+2026-06-16 22:32:38 INFO  BaseTest - Booking created successfully with ID: 605
+2026-06-16 22:32:38 INFO  TestListener - Test Passed: testCreateBooking (Duration: 1403 ms)
+2026-06-16 22:32:38 INFO  TestListener - Test Started: testDeleteBooking
+2026-06-16 22:32:38 INFO  BaseTest - === TC#INT3 - Step 2: Deleting Booking ID: 605 ===
+2026-06-16 22:32:38 INFO  BaseTest - Generating authentication token
+2026-06-16 22:32:39 INFO  BaseTest - Token generated successfully
+2026-06-16 22:32:41 INFO  BaseTest - Booking deleted successfully for ID: 605
+2026-06-16 22:32:41 INFO  TestListener - Test Passed: testDeleteBooking (Duration: 2661 ms)
+2026-06-16 22:32:41 INFO  TestListener - Test Started: testVerifyBookingDeleted
+2026-06-16 22:32:41 INFO  BaseTest - === TC#INT3 - Step 3: Verifying Booking ID: 605 is deleted ===
+2026-06-16 22:32:42 INFO  BaseTest - Verified booking ID: 605 is deleted (404 Not Found)
+2026-06-16 22:32:42 INFO  TestListener - Test Passed: testVerifyBookingDeleted (Duration: 1407 ms)
+2026-06-16 22:32:42 INFO  BaseTest - === Test Teardown Complete ===
+2026-06-16 22:32:42 INFO  BaseTest - === Starting Test Setup ===
+2026-06-16 22:32:42 INFO  BaseTest - Initializing PayloadManager, AssertActions, and VWOPayloadManager
+2026-06-16 22:32:42 INFO  BaseTest - Base URL set to: https://restful-booker.herokuapp.com
+2026-06-16 22:32:42 INFO  BaseTest - === Test Setup Complete ===
+2026-06-16 22:32:42 INFO  TestListener - Test Started: testCreateBooking
+2026-06-16 22:32:42 INFO  BaseTest - === TC#INT4 - Step 1: Creating Booking via API ===
+2026-06-16 22:32:43 INFO  BaseTest - Booking created via API with ID: 677, firstname: James, lastname: Brown
+2026-06-16 22:32:43 INFO  TestListener - Test Passed: testCreateBooking (Duration: 1311 ms)
+2026-06-16 22:32:43 INFO  TestListener - Test Started: testValidateBookingInDatabase
+2026-06-16 22:32:43 INFO  BaseTest - === TC#INT4 - Step 2: Validating Booking ID: 677 in Database ===
+2026-06-16 22:32:43 ERROR BaseTest - Database validation failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 22:32:43 WARN  RetryAnalyzer - Retrying test 'testValidateBookingInDatabase' - Attempt 1 of 3
+2026-06-16 22:32:43 WARN  TestListener - Test Skipped: testValidateBookingInDatabase
+2026-06-16 22:32:43 INFO  TestListener - Test Started: testValidateBookingInDatabase
+2026-06-16 22:32:43 INFO  BaseTest - === TC#INT4 - Step 2: Validating Booking ID: 677 in Database ===
+2026-06-16 22:32:43 ERROR BaseTest - Database validation failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 22:32:43 WARN  RetryAnalyzer - Retrying test 'testValidateBookingInDatabase' - Attempt 2 of 3
+2026-06-16 22:32:43 WARN  TestListener - Test Skipped: testValidateBookingInDatabase
+2026-06-16 22:32:43 INFO  TestListener - Test Started: testValidateBookingInDatabase
+2026-06-16 22:32:43 INFO  BaseTest - === TC#INT4 - Step 2: Validating Booking ID: 677 in Database ===
+2026-06-16 22:32:43 ERROR BaseTest - Database validation failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 22:32:44 WARN  RetryAnalyzer - Retrying test 'testValidateBookingInDatabase' - Attempt 3 of 3
+2026-06-16 22:32:44 WARN  TestListener - Test Skipped: testValidateBookingInDatabase
+2026-06-16 22:32:44 INFO  TestListener - Test Started: testValidateBookingInDatabase
+2026-06-16 22:32:44 INFO  BaseTest - === TC#INT4 - Step 2: Validating Booking ID: 677 in Database ===
+2026-06-16 22:32:44 ERROR BaseTest - Database validation failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 22:32:44 ERROR RetryAnalyzer - Test 'testValidateBookingInDatabase' failed after 3 retry attempts
+2026-06-16 22:32:44 ERROR TestListener - Test Failed: testValidateBookingInDatabase
+2026-06-16 22:32:44 ERROR TestListener - Failure Reason: Database validation failed for booking ID: 677
+2026-06-16 22:32:44 INFO  TestListener - Test Started: testUpdateBookingViaAPI
+2026-06-16 22:32:44 INFO  BaseTest - === TC#INT4 - Step 3: Updating Booking ID: 677 via API ===
+2026-06-16 22:32:44 INFO  BaseTest - Generating authentication token
+2026-06-16 22:32:45 INFO  BaseTest - Token generated successfully
+2026-06-16 22:32:46 INFO  BaseTest - Booking updated via API - firstname: UpdatedJohn, lastname: UpdatedDoe
+2026-06-16 22:32:46 INFO  TestListener - Test Passed: testUpdateBookingViaAPI (Duration: 2577 ms)
+2026-06-16 22:32:46 INFO  TestListener - Test Started: testVerifyUpdateInDatabase
+2026-06-16 22:32:46 INFO  BaseTest - === TC#INT4 - Step 4: Verifying Update in Database for Booking ID: 677 ===
+2026-06-16 22:32:46 ERROR BaseTest - Database verification failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 22:32:46 WARN  RetryAnalyzer - Retrying test 'testVerifyUpdateInDatabase' - Attempt 1 of 3
+2026-06-16 22:32:46 WARN  TestListener - Test Skipped: testVerifyUpdateInDatabase
+2026-06-16 22:32:46 INFO  TestListener - Test Started: testVerifyUpdateInDatabase
+2026-06-16 22:32:46 INFO  BaseTest - === TC#INT4 - Step 4: Verifying Update in Database for Booking ID: 677 ===
+2026-06-16 22:32:46 ERROR BaseTest - Database verification failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 22:32:46 WARN  RetryAnalyzer - Retrying test 'testVerifyUpdateInDatabase' - Attempt 2 of 3
+2026-06-16 22:32:46 WARN  TestListener - Test Skipped: testVerifyUpdateInDatabase
+2026-06-16 22:32:46 INFO  TestListener - Test Started: testVerifyUpdateInDatabase
+2026-06-16 22:32:46 INFO  BaseTest - === TC#INT4 - Step 4: Verifying Update in Database for Booking ID: 677 ===
+2026-06-16 22:32:46 ERROR BaseTest - Database verification failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 22:32:46 WARN  RetryAnalyzer - Retrying test 'testVerifyUpdateInDatabase' - Attempt 3 of 3
+2026-06-16 22:32:46 WARN  TestListener - Test Skipped: testVerifyUpdateInDatabase
+2026-06-16 22:32:46 INFO  TestListener - Test Started: testVerifyUpdateInDatabase
+2026-06-16 22:32:46 INFO  BaseTest - === TC#INT4 - Step 4: Verifying Update in Database for Booking ID: 677 ===
+2026-06-16 22:32:46 ERROR BaseTest - Database verification failed: Missing required env variable: MYSQL_DATABASE
+2026-06-16 22:32:46 ERROR RetryAnalyzer - Test 'testVerifyUpdateInDatabase' failed after 3 retry attempts
+2026-06-16 22:32:46 ERROR TestListener - Test Failed: testVerifyUpdateInDatabase
+2026-06-16 22:32:46 ERROR TestListener - Failure Reason: Database verification failed for booking ID: 677
+2026-06-16 22:32:46 INFO  BaseTest - === Test Teardown Complete ===
+2026-06-16 22:32:46 INFO  TestListener - === Test Suite Finished: E2E Integration Tests ===
+2026-06-16 22:32:46 INFO  TestListener - Passed: 5, Failed: 10, Skipped: 30
+2026-06-16 22:32:46 INFO  TestListener - === Test Suite Started: Data-Driven Tests ===
+2026-06-16 22:32:46 INFO  BaseTest - === Starting Test Setup ===
+2026-06-16 22:32:46 INFO  BaseTest - Initializing PayloadManager, AssertActions, and VWOPayloadManager
+2026-06-16 22:32:46 INFO  BaseTest - Base URL set to: https://restful-booker.herokuapp.com
+2026-06-16 22:32:46 INFO  BaseTest - === Test Setup Complete ===
+2026-06-16 22:32:46 INFO  BaseTest - Loading test data from Excel file
+2026-06-16 22:32:46 ERROR TestListener - Test Failed: testCreateAndVerifyBookingFromExcel
+2026-06-16 22:32:46 ERROR TestListener - Failure Reason: org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2026-06-16 22:32:46 INFO  BaseTest - Loading test data from Excel file
+2026-06-16 22:32:46 ERROR TestListener - Test Failed: testCreateBookingFromExcel
+2026-06-16 22:32:46 ERROR TestListener - Failure Reason: org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2026-06-16 22:32:46 INFO  BaseTest - === Test Teardown Complete ===
+2026-06-16 22:32:46 INFO  TestListener - === Test Suite Finished: Data-Driven Tests ===
+2026-06-16 22:32:46 INFO  TestListener - Passed: 0, Failed: 2, Skipped: 0
+2026-06-16 22:35:34 INFO  TestListener - === Test Suite Started: Sample Tests ===
+2026-06-16 22:35:34 INFO  TestListener - Test Started: test_hello_world_positive
+2026-06-16 22:35:35 INFO  TestListener - Test Passed: test_hello_world_positive (Duration: 61 ms)
+2026-06-16 22:35:35 INFO  TestListener - Test Started: test_hello_world_negative
+2026-06-16 22:35:35 WARN  RetryAnalyzer - Retrying test 'test_hello_world_negative' - Attempt 1 of 3
+2026-06-16 22:35:35 WARN  TestListener - Test Skipped: test_hello_world_negative
+2026-06-16 22:35:35 INFO  TestListener - Test Started: test_hello_world_negative
+2026-06-16 22:35:35 WARN  RetryAnalyzer - Retrying test 'test_hello_world_negative' - Attempt 2 of 3
+2026-06-16 22:35:35 WARN  TestListener - Test Skipped: test_hello_world_negative
+2026-06-16 22:35:35 INFO  TestListener - Test Started: test_hello_world_negative
+2026-06-16 22:35:35 WARN  RetryAnalyzer - Retrying test 'test_hello_world_negative' - Attempt 3 of 3
+2026-06-16 22:35:35 WARN  TestListener - Test Skipped: test_hello_world_negative
+2026-06-16 22:35:35 INFO  TestListener - Test Started: test_hello_world_negative
+2026-06-16 22:35:35 ERROR RetryAnalyzer - Test 'test_hello_world_negative' failed after 3 retry attempts
+2026-06-16 22:35:35 ERROR TestListener - Test Failed: test_hello_world_negative
+2026-06-16 22:35:35 ERROR TestListener - Failure Reason: expected [Pramod] but found [pramod]
+2026-06-16 22:35:35 INFO  TestListener - === Test Suite Finished: Sample Tests ===
+2026-06-16 22:35:35 INFO  TestListener - Passed: 1, Failed: 1, Skipped: 3
