@@ -1,0 +1,3 @@
+Test failed: 
+expected: "James"
+ but was: "Lucky"
