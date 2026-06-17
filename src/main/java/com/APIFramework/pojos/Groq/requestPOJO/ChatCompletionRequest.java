@@ -25,3 +25,4 @@ public class ChatCompletionRequest {
     public void addMessage(Message m) { this.messages.add(m);
     }
 }
+
