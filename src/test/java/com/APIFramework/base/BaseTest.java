@@ -19,7 +19,7 @@ import org.testng.annotations.BeforeClass;
 public class BaseTest {
     protected static final Logger logger = LogManager.getLogger(BaseTest.class);
 
-    // This is common to all test cases.
+    // Common to all test cases
     public RequestSpecification requestSpecification;
     public Response response;
     public ValidatableResponse validatableResponse;
@@ -38,10 +38,13 @@ public class BaseTest {
         assertActions = new AssertActions();
         vwoPayloadManager = new VWOPayloadManager();
 
+
         requestSpecification = new RequestSpecBuilder()
                 .setBaseUri(APIConstants.BASE_URL)
                 .addHeader("Content-Type", "application/json")
-                .build().log().all();
+                .build();
+
+        requestSpecification.log().all();
 
         logger.info("Base URL set to: {}", APIConstants.BASE_URL);
         logger.info("=== Test Setup Complete ===");
@@ -52,17 +55,20 @@ public class BaseTest {
         logger.info("=== Test Teardown Complete ===");
     }
 
+
     public String getToken() {
         logger.info("Generating authentication token");
-        requestSpecification = RestAssured.given();
-        requestSpecification.baseUri(APIConstants.BASE_URL)
-                .basePath(APIConstants.AUTH_URL);
+
+        RequestSpecification authSpec = RestAssured.given()
+                .baseUri(APIConstants.BASE_URL)
+                .basePath(APIConstants.AUTH_URL)
+                .contentType(ContentType.JSON);
 
         String payload = payloadManager.setAuthPayload();
         logger.debug("Auth payload: {}", payload);
 
-        response = requestSpecification.contentType(ContentType.JSON).body(payload).when().post();
-        String token = payloadManager.getTokenFromJSON(response.asString());
+        Response authResponse = authSpec.body(payload).when().post();
+        String token = payloadManager.getTokenFromJSON(authResponse.asString());
 
         logger.info("Token generated successfully");
         return token;
