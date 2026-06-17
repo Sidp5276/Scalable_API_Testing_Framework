@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite" verbose="2">
+
+    <listeners>
+        <listener class-name="com.APIFramework.listeners.RetryListener"/>
+        <listener class-name="com.APIFramework.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Sample Tests" preserve-order="true">
+        <classes>
+            <class name="com.APIFramework.tests.sample.TestHelloRA">
+                <methods>
+                    <include name="test_hello_world_positive"/>
+                    <include name="test_hello_world_negative"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
