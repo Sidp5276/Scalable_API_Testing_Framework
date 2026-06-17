@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E2E Integration Test Suite" verbose="2">
+    <listeners>
+        <listener class-name="com.APIFramework.listeners.RetryListener"/>
+        <listener class-name="com.APIFramework.listeners.TestListener"/>
+    </listeners>
+
+    <test name="E2E Integration Tests" preserve-order="true">
+        <classes>
+            <class name="com.APIFramework.tests.e2e_integration.TestIntegrationFlow1"/>
+            <class name="com.APIFramework.tests.e2e_integration.TestIntegrationFlow2"/>
+            <class name="com.APIFramework.tests.e2e_integration.TestIntegrationFlow3"/>
+            <class name="com.APIFramework.tests.e2e_integration.TestIntegrationFlow4"/>
+            <class name="com.APIFramework.tests.e2e_integration.TestIntegrationFlow5_DDT"/>
+        </classes>
+    </test>
+</suite>
