@@ -29,7 +29,7 @@ public class TestDataGenerator {
             headerStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
 
             String[] headers = {"firstname", "lastname", "totalprice", "depositpaid", "checkin", "checkout", "additionalneeds"};
-            Row headerRow = sheet.createRow(0);
+            Row headerRow = sheet.createRow(1);
             for (int i = 0; i < headers.length; i++) {
                 Cell cell = headerRow.createCell(i);
                 cell.setCellValue(headers[i]);
@@ -52,7 +52,7 @@ public class TestDataGenerator {
 
             // Populate data rows
             for (int i = 0; i < testData.length; i++) {
-                Row row = sheet.createRow(i + 1);
+                Row row = sheet.createRow(i + 2);
                 for (int j = 0; j < testData[i].length; j++) {
                     row.createCell(j).setCellValue(String.valueOf(testData[i][j]));
                 }
